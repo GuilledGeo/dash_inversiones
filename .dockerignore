@@ -1,0 +1,50 @@
+# 🐍 Entornos virtuales
+env/
+venv/
+.env
+*.env
+
+# 🧠 Modelos entrenados (si los cargas por volumen o URL externa)
+models/
+*.pkl
+*.joblib
+
+# 📊 Datos y salidas pesadas
+data/
+datasets/
+*.csv
+*.xlsx
+*.zip
+*.gz
+
+# 📘 Jupyter Notebooks y metadatos
+*.ipynb
+.ipynb_checkpoints/
+
+# ⚙️ Cachés y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧪 Tests y reportes temporales
+*.log
+*.tmp
+.coverage
+coverage.xml
+htmlcov/
+
+# 🛠️ Archivos del sistema o del IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 🐙 Git y control de versiones
+.git/
+.gitignore
+
+# 🔒 Secretos o claves API (por si acaso)
+*.pem
+*.key
+*.crt

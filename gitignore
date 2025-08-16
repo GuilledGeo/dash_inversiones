@@ -1,0 +1,69 @@
+# ▶️ Entornos virtuales
+venv/
+env/
+
+# 🐍 Cachés de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🧪 Archivos de test y cobertura
+*.cover
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+
+# 📓 Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ⚙️ Archivos de entorno
+.env
+.env.*
+*.env
+
+# 🧪 Archivos de configuración generados
+*.log
+*.tmp
+
+# 🧠 Archivos de modelos o pesos
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# 📁 Carpeta de outputs o resultados
+outputs/
+models/
+data/
+datasets/
+
+# 📦 Archivos comprimidos
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.rar
+
+# 🐳 Docker
+*.pid
+docker-compose.override.yml
+
+# 🧰 IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🖥️ Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 🔧 Configuración local de pre-commit
+.pre-commit-config.yaml~
+
+# 🔒 Claves accidentales
+*.key
+*.pem
+*.crt
